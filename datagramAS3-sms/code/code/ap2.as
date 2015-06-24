@@ -1,0 +1,1 @@
+﻿package{	import flash.display.Sprite;	import flash.display.MovieClip;		public class ap2 extends MovieClip	{		public var Datagram:DatagramSocketExample=new DatagramSocketExample();				public function ap2()		{			this.addChild(Datagram);		}	}}

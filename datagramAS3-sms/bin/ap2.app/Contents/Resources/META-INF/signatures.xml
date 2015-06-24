@@ -1,0 +1,38 @@
+<signatures>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="PackageSignature">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/TR/xmldsig-core#rsa-sha1"/>
+      <Reference URI="#PackageContents">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <DigestValue>T8fpXdDx0jFeAgD5++AY7XxRy+eergSCIorpd5XKKN8=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue Id="PackageSignatureValue">rNkUA+F+953AD9JhOqJ6048p3BWfuQehIDde5NdJ8YWrE1icOdm7vdnwSzpnVz9r4X+KT7qClYc2
+X1Fw5sBZkvMdFEfe4BniNgaN3bAfEsVPL/XrnCG+R3yFrKd/9AyzzGk+Xr5wWnCDn4k7KFjCQLvo
+A2VsGHLvZCch0ZOWQBQ=</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>MIICFjCCAX6gAwIBAgIbLTI4NDlmZjRiOjE0MzgxZjBmOTRhOi04MDAwMA0GCSqGSIb3DQEBBQUA
+MDcxCzAJBgNVBAYTAlVTMQwwCgYDVQQKEwN0bXAxDDAKBgNVBAsTA3RtcDEMMAoGA1UEAxMDdG1w
+MB4XDTE0MDExMDE1MzQ0OVoXDTM5MDExMTE1MzQ0OVowNzELMAkGA1UEBhMCVVMxDDAKBgNVBAoT
+A3RtcDEMMAoGA1UECxMDdG1wMQwwCgYDVQQDEwN0bXAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJ
+AoGBAL7UgNWXssYYXMZ2LwUM+6xn55DTPH36DUx8f3NaXIDtsdPriVKoXQ/2yMNXpHpSBYvMx04e
+08mtODMwjHjv0WGz1uQUj3m/m2JqHS5eu3Wqnn1YpiBxDNslMz2eC8D2CC6eItV05CpUg5qdCMxw
+gA3R5WcxS0Z7NkTV0aS0S5NdAgMBAAGjFzAVMBMGA1UdJQQMMAoGCCsGAQUFBwMDMA0GCSqGSIb3
+DQEBBQUAA4IAgQAgZGUNYmRiKIq5L8idls7RonBe3gKO5DQ2zTapeaVJj5PxMiKMfM5mUUo53yzo
+lzuX15FK86UcoYcXu0iqNlDQzz+VGyGhRMyUT9YwBmYnZckjocO2rGucoaaU+7gG81NoisMepJGR
+AKuUr7/I2Z/65epGMBEmpeWWPk63XDR0pw==</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+    <Object>
+      <Manifest Id="PackageContents">
+        <Reference URI="mimetype"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>0/oCb84THKMagtI0Dy0KogEu92TegdesqRr/clXct1c=</DigestValue></Reference><Reference URI="META-INF/AIR/application.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>oJXhtMeQadPSDvelZlafhU9R/LNR4C8FbtDD/gZ8qRw=</DigestValue></Reference><Reference URI="ap2.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>75kuoe+kaazOVJbZNsBuNJQIzvU+bIGr7G4WzIiuVOE=</DigestValue></Reference><Reference URI="AppIconsForPublish/com48.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>LeLs9PEWPAToh/D9hPcbj8vvMBUBiPc03mKGRgY8kEE=</DigestValue></Reference>
+      </Manifest>
+    </Object>
+    
+  </Signature>
+</signatures>
